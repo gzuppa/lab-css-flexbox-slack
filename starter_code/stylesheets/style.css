@@ -5,3 +5,59 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+*{
+    box-sizing:border-box;
+}
+
+@media (max-width: 378px){
+    background-color: aqua;
+}
+
+.slack-image {
+    width: 10em;
+    position: ;
+    }
+
+.work-image{
+    width: 22em;
+} 
+
+.leads-image{
+    width: 12em;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.main-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20em;
+    margin-left: 20px;
+}
+
+.main-text2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20em;
+    margin-left: 20px;
+}
+
+.boton {
+    border: 1px solid #2e518b; 
+    padding: 25px;
+    background-color: #192592; 
+    color: #ffffff;
+    text-transform: uppercase; 
+    font-family: 'Trebuchet MS', sans-serif; 
+    border-radius: 5px; 
+    }
+
+.divboton {
+    margin-left: 100px;
+    margin-right: auto;
+    width: 10em
+    }
+
+.divcaja {
+    margin-left: 52px;
+}
